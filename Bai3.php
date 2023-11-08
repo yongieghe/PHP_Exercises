@@ -4,17 +4,16 @@
 
  echo "Value is now " . $x . "<br>";
  $x += 2;
- echo "Value is now " . $x . "<br>";
+ echo "Add 2. Value is now " . $x . "<br>";
  $x -= 4;
- echo "Value is now " . $x . "<br>";
+ echo "Subtract 4. Value is now " . $x . "<br>";
  $x *= 5;
- echo "Value is now " . $x . "<br>";
+ echo "Multiply by 5. Value is now " . $x . "<br>";
  $x /= 3;
- echo "Value is now " . $x  . "<br>";
+ echo "Divide by 3. Value is now " . $x  . "<br>";
  $x = ++$x;
- echo "Value is now " . $x  . "<br>";
+ echo "Increment value by one. Value is now " . $x  . "<br>";
  $x = --$x;
- echo "Value is now " . $x  . "<br>";
-
+ echo "Decrement value by one. Value is now " . $x  . "<br>";
 
  ?>
