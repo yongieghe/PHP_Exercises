@@ -10,13 +10,14 @@ for ($i = 1; $i <= $rows; $i++) {
     }
 }
 
-
+echo '<table border="1">';
 for ($i = 1; $i <= $rows; $i++) {
+    echo '<tr>';
     for ($j = 1; $j <= $cols; $j++) {
-        echo $matrix[$i][$j] . "\t"; 
+        echo '<td>' . $matrix[$i][$j] . '</td>';
     }
-    echo "<br>"; 
+    echo '</tr>';
 }
+echo '</table>';
 
 ?>
-
